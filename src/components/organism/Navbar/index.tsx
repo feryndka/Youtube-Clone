@@ -1,5 +1,6 @@
 import NavbarCenter from '@/components/molecules/NavbarCenter'
 import NavbarLeft from '@/components/molecules/NavbarLeft'
+import NavbarRight from '@/components/molecules/NavbarRight'
 import React from 'react'
 
 const Navbar = () => {
@@ -7,7 +8,7 @@ const Navbar = () => {
     <div className='flex justify-between p-3'>
       <NavbarLeft />
       <NavbarCenter />
-      <div>SignIn Button</div>
+      <NavbarRight />
     </div>
   )
 }

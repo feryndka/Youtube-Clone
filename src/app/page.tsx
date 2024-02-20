@@ -1,7 +1,9 @@
+import HomeLayout from "@/components/templates/HomeLayout";
+
 export default function Home() {
   return (
     <div>
-      Main Content
+      <HomeLayout>Main Content</HomeLayout>
     </div>
   );
 }

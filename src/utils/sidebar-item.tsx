@@ -108,19 +108,19 @@ export const SIDEBAR_ITEM_BROWSE: ISidebarItem[] = [
 
 export const SIDEBAR_ITEM_MORE: ISidebarItem[] = [
   {
-    icon: <FaYoutube size={20} style={{ color: "red"}} />,
+    icon: <FaYoutube size={20} color="red" />,
     label: "Youtube Premium",
     isActive: false,
     href: "#",
   },
   {
-    icon: <SiYoutubemusic size={20} style={{ color: "red" }} />,
+    icon: <SiYoutubemusic size={20} color="red" />,
     label: "Youtube Music",
     isActive: false,
     href: "#",
   },
   {
-    icon: <TbBrandYoutubeKids size={20} style={{ color: "red" }} />,
+    icon: <TbBrandYoutubeKids size={20} color="red" />,
     label: "Youtube Kids",
     isActive: false,
     href: "#",

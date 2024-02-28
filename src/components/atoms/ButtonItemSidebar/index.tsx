@@ -14,7 +14,7 @@ const ButtonItemSidebar = ({
     <Link
       href={href}
       className={`${
-        isActive ? "bg-white/20 font-semibold" : "hover:bg-white/20"
+        isActive ? "bg-white/20" : "hover:bg-white/20"
       } text-sm flex p-2 ms-3 me-5 gap-6 rounded-lg`}
     >
       {children}

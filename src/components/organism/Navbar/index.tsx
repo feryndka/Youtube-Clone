@@ -3,10 +3,10 @@ import NavbarLeft from '@/components/molecules/NavbarLeft'
 import NavbarRight from '@/components/molecules/NavbarRight'
 import React from 'react'
 
-const Navbar = () => {
+const Navbar = ({onClickNavbar} : {onClickNavbar: () => void}) => {
   return (
-    <div className='flex justify-between p-3 sticky top-0 h-[8vh]'>
-      <NavbarLeft />
+    <div className='flex justify-between p-3 sticky top-0'>
+      <NavbarLeft onClickNavbar={onClickNavbar} />
       <NavbarCenter />
       <NavbarRight />
     </div>

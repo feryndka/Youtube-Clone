@@ -1,10 +1,10 @@
-import { GoHomeFill, GoTrophy } from "react-icons/go";
+import { GoTrophy, GoHome } from "react-icons/go";
 import {
   SiYoutubeshorts,
   SiYoutubegaming,
   SiYoutubemusic,
 } from "react-icons/si";
-import { MdSubscriptions, MdOutlineVideoLibrary, MdOutlineOutlinedFlag } from "react-icons/md";
+import { MdOutlineSubscriptions, MdOutlineVideoLibrary, MdOutlineOutlinedFlag } from "react-icons/md";
 import { GrAddCircle, GrHistory } from "react-icons/gr";
 import { BsFire } from "react-icons/bs";
 import { PiMusicNoteLight } from "react-icons/pi";
@@ -24,19 +24,19 @@ interface ISidebarItem {
 
 export const SIDEBAR_ITEM_HOME: ISidebarItem[] = [
   {
-    icon: <GoHomeFill size={20} />,
+    icon: <GoHome size={20} />,
     label: "Home",
-    isActive: true,
+    isActive: false,
     href: "/",
   },
   {
     icon: <SiYoutubeshorts size={20} />,
     label: "Shorts",
-    isActive: false,
+    isActive: true,
     href: "/shorts",
   },
   {
-    icon: <MdSubscriptions size={20} />,
+    icon: <MdOutlineSubscriptions size={20} />,
     label: "Subscriptions",
     isActive: false,
     href: "/subscriptions",

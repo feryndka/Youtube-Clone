@@ -1,4 +1,4 @@
-import { GoTrophy, GoHome } from "react-icons/go";
+import { GoTrophy, GoHomeFill } from "react-icons/go";
 import {
   SiYoutubeshorts,
   SiYoutubegaming,
@@ -24,15 +24,15 @@ interface ISidebarItem {
 
 export const SIDEBAR_ITEM_HOME: ISidebarItem[] = [
   {
-    icon: <GoHome size={20} />,
+    icon: <GoHomeFill size={20} />,
     label: "Home",
-    isActive: false,
+    isActive: true,
     href: "/",
   },
   {
     icon: <SiYoutubeshorts size={20} />,
     label: "Shorts",
-    isActive: true,
+    isActive: false,
     href: "/shorts",
   },
   {

@@ -53,7 +53,7 @@ const HomeLayout = ({ children }: { children: React.ReactNode }) => {
             ))}
           </div>
         ) : (
-          <div className="w-[230px] h-[92vh] flex flex-col gap-1 overflow-y-scroll">
+          <div className="w-[15vw] h-[92vh] flex flex-col gap-1 overflow-y-scroll">
             {/* HOME */}
             <SidebarItemLayout>
               {SIDEBAR_ITEM_HOME.map((item, index) => (
@@ -83,7 +83,7 @@ const HomeLayout = ({ children }: { children: React.ReactNode }) => {
             {/* SIGN IN */}
             <SidebarItemLayout>
               <div className="mx-5">
-                <div className="mb-3">
+                <div className="mb-3 text-white/70">
                   Sign in to like videos, comment, and subscribe.
                 </div>
                 <Button>
@@ -150,7 +150,7 @@ const HomeLayout = ({ children }: { children: React.ReactNode }) => {
                 </ButtonItemSidebar>
               ))}
             </SidebarItemLayout>
-            <div className="flex flex-col gap-3 ms-5 me-4 mb-2">
+            <div className="flex flex-col gap-3 ms-5 me-4 mb-3">
               <div className="text-sm text-white/60 font-semibold">
                 About Press Copyright Contact us Creators Advertise Developers
               </div>
@@ -162,7 +162,7 @@ const HomeLayout = ({ children }: { children: React.ReactNode }) => {
             </div>
           </div>
         )}
-        <div>{children}</div>
+        <div className="grow px-3 py-1 w-[85vw]">{children}</div>
       </div>
     </>
   );

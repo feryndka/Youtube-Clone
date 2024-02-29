@@ -8,7 +8,7 @@ export default function Home() {
     <div>
       <HomeLayout>
         <Category />
-        <div className="grid grid-cols-3 gap-5 h-[83vh] overflow-y-scroll">
+        <div className="grid grid-cols-3 gap-x-5 gap-y-10 h-[81vh] overflow-y-scroll">
           {CONTENT_DATA.map((item) => (
             <CardVideo
               key={item.username}

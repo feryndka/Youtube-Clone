@@ -62,7 +62,8 @@ const HomeLayout = ({ children }: { children: React.ReactNode }) => {
                   key={index}
                   isActive={item.isActive}
                 >
-                  {item.icon}
+                  {item.isActive ? <>{item.icon}</> : <>{item.iconIsNotActive}</>}
+                  {/* {item.icon} */}
                   {item.label}
                 </ButtonItemSidebar>
               ))}

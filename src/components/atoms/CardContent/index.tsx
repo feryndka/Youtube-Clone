@@ -23,12 +23,12 @@ const CardContent = ({
         <div>
           <p className="font-black mb-1">{title}</p>
           <div className="text-white/60 text-sm ">
-            <p className=" flex items-center gap-1">
+            <div className=" flex items-center gap-1">
               <p className="hover:text-white/90">
                 {username}
               </p> 
               {verified ? <FaCircleCheck size={13} /> : null}
-            </p>
+            </div>
             <p>1,3 jt x ditonton ∙ 45 menit yang lalu </p>
           </div>
         </div>

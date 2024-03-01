@@ -5,7 +5,7 @@ import React from 'react'
 
 const Navbar = ({onClickNavbar} : {onClickNavbar: () => void}) => {
   return (
-    <div className='bg-black z-10 flex justify-between p-3 sticky top-0 h-[10vh]'>
+    <div className='bg-black z-10 flex justify-between p-3 sticky top-0'>
       <NavbarLeft onClickNavbar={onClickNavbar} />
       <NavbarCenter />
       <NavbarRight />

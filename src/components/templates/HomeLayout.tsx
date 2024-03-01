@@ -53,7 +53,7 @@ const HomeLayout = ({ children }: { children: React.ReactNode }) => {
             ))}
           </div>
         ) : (
-          <div className="w-[16vw] h-[90vh] flex flex-col gap-1 overflow-y-scroll">
+          <div className="w-[15vw] h-[90vh] flex flex-col gap-1 overflow-y-scroll">
             {/* HOME */}
             <SidebarItemLayout>
               {SIDEBAR_ITEM_HOME.map((item, index) => (
@@ -162,7 +162,7 @@ const HomeLayout = ({ children }: { children: React.ReactNode }) => {
             </div>
           </div>
         )}
-        <div className="grow px-3 py-1 w-[84vw]">{children}</div>
+        <div className="grow px-3 py-1 w-[85vw]">{children}</div>
       </div>
     </>
   );

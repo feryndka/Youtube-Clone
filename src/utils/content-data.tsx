@@ -50,12 +50,12 @@ export const CONTENT_DATA = [
     verified: true,
   },
   {
-    thumbnail: "/assets/imagesThumbnail/thumbnail-1.webp",
-    title: "Patroli di Kehidupan Lain | GTA Roleplay",
-    username: "Raditya Dika",
-    profile: "/assets/imagesProfile/profile-1.jpg",
-    duration: "9.22",
-    verified: true,
+    thumbnail: "/assets/imagesThumbnail/thumbnail-3.webp",
+    title: "TUTORIAL",
+    username: "lala",
+    profile: "/assets/imagesProfile/profile-7.jpg",
+    duration: "10.00",
+    verified: false,
   },
   {
     thumbnail: "/assets/imagesThumbnail/thumbnail-2.webp",

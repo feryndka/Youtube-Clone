@@ -1,10 +1,10 @@
-import { GoTrophy, GoHomeFill } from "react-icons/go";
+import { GoTrophy, GoHomeFill, GoHome } from "react-icons/go";
 import {
   SiYoutubeshorts,
   SiYoutubegaming,
   SiYoutubemusic,
 } from "react-icons/si";
-import { MdOutlineSubscriptions, MdOutlineVideoLibrary, MdOutlineOutlinedFlag } from "react-icons/md";
+import { MdOutlineSubscriptions, MdOutlineVideoLibrary, MdOutlineOutlinedFlag, MdSubscriptions } from "react-icons/md";
 import { GrAddCircle, GrHistory } from "react-icons/gr";
 import { BsFire } from "react-icons/bs";
 import { PiMusicNoteLight } from "react-icons/pi";
@@ -17,6 +17,7 @@ import { IoIosHelpCircleOutline } from "react-icons/io";
 
 interface ISidebarItem {
   icon: React.ReactNode;
+  iconIsNotActive?: React.ReactNode;
   label: string;
   isActive?: boolean;
   href: string;
@@ -25,18 +26,21 @@ interface ISidebarItem {
 export const SIDEBAR_ITEM_HOME: ISidebarItem[] = [
   {
     icon: <GoHomeFill size={20} />,
+    iconIsNotActive : <GoHome size={20} />,
     label: "Home",
     isActive: true,
     href: "/",
   },
   {
     icon: <SiYoutubeshorts size={20} />,
+    iconIsNotActive : <SiYoutubeshorts size={20} />,
     label: "Shorts",
     isActive: false,
     href: "/shorts",
   },
   {
-    icon: <MdOutlineSubscriptions size={20} />,
+    icon: <MdSubscriptions size={20} />,
+    iconIsNotActive : <MdOutlineSubscriptions size={20} />,
     label: "Subscriptions",
     isActive: false,
     href: "/subscriptions",

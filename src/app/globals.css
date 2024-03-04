@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 body {
-  @apply bg-black text-white overflow-y-hidden;
+  @apply bg-black text-white;
 }
 
 /* width */

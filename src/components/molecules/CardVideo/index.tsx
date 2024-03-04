@@ -19,7 +19,7 @@ const CardVideo = ({
   verified:boolean
 }) => {
   return (
-    <Link href={"#"}>
+    <Link href={"/1"}>
       <Thumbnail thumbnail={thumbnail} duration={duration} />
       <CardContent title={title} username={username} profile={profile} verified={verified} />
     </Link>
